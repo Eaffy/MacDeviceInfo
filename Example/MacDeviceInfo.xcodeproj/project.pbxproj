@@ -28,13 +28,13 @@
 
 /* Begin PBXFileReference section */
 		09F0B6DCB89936D6CA886003 /* Pods-MacDeviceInfo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacDeviceInfo_Example.release.xcconfig"; path = "Target Support Files/Pods-MacDeviceInfo_Example/Pods-MacDeviceInfo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1A0BD30661ED78EB37E06EE0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1A0BD30661ED78EB37E06EE0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5A9E1BA67C10110FE9886EE8 /* Pods_MacDeviceInfo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacDeviceInfo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D299A5F5691AB8EC5F980A /* Pods-MacDeviceInfo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacDeviceInfo_Example.debug.xcconfig"; path = "Target Support Files/Pods-MacDeviceInfo_Example/Pods-MacDeviceInfo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9BC0679B63E1D13885085C11 /* Pods-MacDeviceInfo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacDeviceInfo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MacDeviceInfo_Tests/Pods-MacDeviceInfo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BC7E8B0F06DC7BDA43C8877C /* MacDeviceInfo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MacDeviceInfo.podspec; path = ../MacDeviceInfo.podspec; sourceTree = "<group>"; };
+		BC7E8B0F06DC7BDA43C8877C /* MacDeviceInfo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MacDeviceInfo.podspec; path = ../MacDeviceInfo.podspec; sourceTree = "<group>"; };
 		C1E7AB48F90CA09D226EF9AB /* Pods_MacDeviceInfo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacDeviceInfo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCC81ADE8131E6ADDF54B2FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CCC81ADE8131E6ADDF54B2FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E030E41DC716B0A1F55D8F8B /* Pods-MacDeviceInfo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacDeviceInfo_Tests.release.xcconfig"; path = "Target Support Files/Pods-MacDeviceInfo_Tests/Pods-MacDeviceInfo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ED83F67820348A760038D96B /* MacDeviceInfo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacDeviceInfo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED83F67B20348A760038D96B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,7 +76,6 @@
 				9BC0679B63E1D13885085C11 /* Pods-MacDeviceInfo_Tests.debug.xcconfig */,
 				E030E41DC716B0A1F55D8F8B /* Pods-MacDeviceInfo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -191,7 +190,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					ED83F67720348A760038D96B = {
@@ -382,6 +381,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -389,6 +389,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -439,6 +440,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -446,6 +448,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -480,6 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MacDeviceInfo/MacDeviceInfo.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MacDeviceInfo/Info.plist;
@@ -496,6 +500,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MacDeviceInfo/MacDeviceInfo.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MacDeviceInfo/Info.plist;

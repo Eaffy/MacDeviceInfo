@@ -7,12 +7,17 @@
 //
 
 import Cocoa
+import MacDeviceInfo
 
 class ViewController: NSViewController {
 
+  @IBOutlet weak var displayLabel: NSTextField!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-
+    let deviceInfo = ":] DeviceName: \(getDeviceName())\n:] WIFIAdress: \(getWiFiAddress())\n:] UUID: \(getDeviceUUID())"
+    displayLabel.stringValue = deviceInfo
+    print(":] *************** DeviceInfo ***************\n\(deviceInfo)\n:] *************** DeviceInfo ***************\n")
     // Do any additional setup after loading the view.
   }
 
