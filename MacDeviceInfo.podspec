@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/eaffy/MacDeviceInfo'
+  s.homepage         = 'https://github.com/Eaffy/MacDeviceInfo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'eaffy' => 'yifei239@126.com' }
-  s.source           = { :git => 'https://github.com/eaffy/MacDeviceInfo.git', :tag => s.version.to_s }
+  s.author           = { 'Eaffy' => 'yifei239@126.com' }
+  s.source           = { :git => 'https://github.com/Eaffy/MacDeviceInfo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform = :osx
