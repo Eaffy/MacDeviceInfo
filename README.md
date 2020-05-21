@@ -19,7 +19,17 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'MacDeviceInfo'
 ```
-
+## Usage
+```swift
+import MacDeviceInfo
+func deviceName() {
+  let deviceInfo = ":] DeviceName: \(getDeviceName())"
+}
+```
+## API
+* `getWiFiAddress`
+* `getDeviceUUID`
+* `getDeviceName`
 ## Author
 
 eaffy, yifei239@126.com
